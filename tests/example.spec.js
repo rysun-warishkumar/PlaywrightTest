@@ -9,7 +9,7 @@ test('Login to GuruTattva', async ({ page, browserName }) => {
   await page.goto('https://gurutattva.rysun.in/');
 
   // Enter username
-  await page.fill('input[name="email"], input[type="text"]', 'maniratnam.mudaliar@rysun.com');
+  // await page.fill('input[name="email"], input[type="text"]', 'maniratnam.mudaliar@rysun.com');
 
   // Enter password
   await page.fill('input[name="password"]', 'Rysun@5044');
